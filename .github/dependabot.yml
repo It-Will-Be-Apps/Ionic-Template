@@ -1,0 +1,27 @@
+# Configuration file for automatic dependencies updates with Dependabot
+version: 2
+
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 20
+    assignees: ["WMartel"]
+    reviewers: ["WMartel"]
+
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 20
+    assignees: ["WMartel"]
+    reviewers: ["WMartel"]
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 20
+    assignees: ["WMartel"]
+    reviewers: ["WMartel"]
