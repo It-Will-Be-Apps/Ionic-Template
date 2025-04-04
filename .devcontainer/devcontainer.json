@@ -1,5 +1,5 @@
 {
-    "name": "base-template",
+    "name": "ionic-template",
     "build": {
         "dockerfile": "Dockerfile"
     },
@@ -21,7 +21,7 @@
         }
     },
     "runArgs": [
-        "--name", "base-template",
+        "--name", "ionic-template",
         "--env-file", ".devcontainer/.env"
     ]
 }
